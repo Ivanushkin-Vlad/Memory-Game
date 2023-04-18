@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    min-width: 150px;
+    min-height: 150px;
+    border: 1px solid gray;
+    margin: 8px 8px 0 0;
+    cursor: pointer;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#board {
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#controlPanel {
+    display: flex;
+    font-size: 20px;
+}
+
+#scoreOutput {
+    margin-left: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+#startGame{
+    background-color: #ace4e4b8;
+    border: none;
+    width: 120px;
+    border-radius: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
